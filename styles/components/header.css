@@ -1,0 +1,110 @@
+:root {
+  --header-height: 80px;
+}
+
+body > header {
+  margin: 0px !important;
+
+  width: 100% !important;
+  max-width: none !important;
+  height: var(--header-height) !important;
+
+  padding: 0 60px !important;
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+  border-bottom: 1px solid var(--container-border) !important;
+}
+
+/* 로고 + 내 메뉴 Wrapper */
+body > header > div._navmenu-container_kfnjv_17 {
+  width: fit-content !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 20px !important;
+}
+
+/* 로고 */
+body > header > div._navmenu-container_kfnjv_17 > a > img {
+  width: 72px !important;
+  height: 40px !important;
+}
+
+/* 로그아웃/비번변경 Wrapper의 Wrapper */
+body > header > div._userinfo-container_kfnjv_44 {
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+/* 로그아웃/비번변경 Wrapper */
+body > header > div._userinfo-container_kfnjv_44 > div {
+  width: fit-content !important;
+  height: fit-content !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 10px !important;
+}
+
+/* 로그아웃/비번변경 버튼 */
+/* 1,2번째 div만 선택 */
+body
+  > header
+  > div._userinfo-container_kfnjv_44
+  > div
+  > div:not(div:last-child) {
+  width: 100px !important;
+  height: 40px !important;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  border-radius: 8px !important;
+
+  font-size: 14px !important;
+
+  outline: none !important;
+  cursor: pointer !important;
+}
+
+/* 로그아웃 버튼 */
+body
+  > header
+  > div._userinfo-container_kfnjv_44
+  > div
+  > div._logout-button_kfnjv_63 {
+  background-color: transparent !important;
+  border: 1px solid var(--danger-color) !important;
+  color: var(--danger-color) !important;
+}
+
+/* 로그아웃 버튼 */
+body
+  > header
+  > div._userinfo-container_kfnjv_44
+  > div
+  > div._normal-button_kfnjv_77 {
+  background-color: transparent !important;
+  border: 1px solid var(--secondary-text-color) !important;
+  color: var(--secondary-text-color) !important;
+}
+
+/* 유저 이름 */
+body > header > div._userinfo-container_kfnjv_44 > div > span {
+  margin-right: 20px !important;
+
+  color: var(--primary-text-color) !important;
+  font-size: 16px !important;
+  white-space: nowrap !important;
+}
+
+/* 내 수업 텍스트 */
+body > header > div._navmenu-container_kfnjv_17 > div > a {
+  color: var(--primary-text-color) !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}

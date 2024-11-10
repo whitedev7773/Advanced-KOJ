@@ -1,0 +1,15 @@
+body > div._container_hjlba_1 > div {
+  width: calc(100% - var(--aside-width)) !important;
+  max-width: none !important;
+  height: calc(100vh - var(--header-height)) !important;
+  max-height: none !important;
+
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
+}
+
+/* 문제 제목 표시 */
+body > div._container_hjlba_1 > div > div._pdf-top_ssc3t_27 {
+  display: none !important;
+}

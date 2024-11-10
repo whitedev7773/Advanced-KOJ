@@ -1,0 +1,6 @@
+/* 로그인 폼 ID/PW 간격 */
+body > div._bg_14j9e_1 > div > form > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 26px !important;
+}

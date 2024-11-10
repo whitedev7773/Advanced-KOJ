@@ -1,0 +1,124 @@
+:root {
+  --aside-width: 250px;
+}
+
+/* 본체 */
+body > div._container_hjlba_1 > aside {
+  width: var(--aside-width) !important;
+  height: calc(100vh - var(--header-height)) !important;
+
+  padding: 40px 16px !important;
+  box-sizing: border-box !important;
+
+  border-right: 1px solid var(--container-border) !important;
+
+  overflow-y: scroll !important;
+
+  /* 스크롤바 안보이게 */
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+/* 수업 변경 버튼 */
+body > div._container_hjlba_1 > aside > button {
+  width: 100% !important;
+  height: 60px !important;
+
+  padding: 0px 24px !important;
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+  background-color: transparent !important;
+
+  border: 1px solid var(--container-border) !important;
+  outline: none !important;
+
+  cursor: pointer !important;
+}
+
+/* 수업 변경 버튼 > 드랍다운 */
+body > div._container_hjlba_1 > aside > button > div {
+  z-index: 100 !important;
+  top: 0px !important;
+  left: calc(100% + 10px) !important;
+  width: 100% !important;
+  height: fit-content !important;
+
+  padding: 0 !important;
+  border-radius: 12px !important;
+
+  background-color: var(--container-primary-background) !important;
+  border: 1px solid var(--container-border) !important;
+
+  overflow: hidden !important;
+}
+
+/* 수업 변경 버튼 라벨 */
+body > div._container_hjlba_1 > aside > button > h2 {
+  margin: 0 !important;
+  font-size: 16px !important;
+  color: var(--secondary-text-color) !important;
+}
+
+/* 수업 변경 버튼 화살표 */
+body > div._container_hjlba_1 > aside > button > img {
+  content: url("data:image/svg+xml,%3csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cg id='chevron-down'%3e%3cpath id='Icon' d='M7.5 11.25L15 18.75L22.5 11.25' stroke='gray' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e") !important;
+  transform: rotate(-90deg) !important;
+}
+
+/* H4 메뉴 라벨 */
+body > div._container_hjlba_1 > aside > h4 {
+  margin-top: 40px !important;
+  margin-bottom: 10px !important;
+  color: var(--primary-text-color) !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+}
+
+/* 내부 메뉴 Wrapper (실습N) */
+body > div._container_hjlba_1 > aside > div {
+  width: 100% !important;
+  padding: 0 0px !important;
+  box-sizing: border-box !important;
+}
+
+/* 내부 메뉴 Wrapper (실습N) */
+body > div._container_hjlba_1 > aside > div > div {
+  border: none !important;
+}
+
+/* 내부 메뉴 라벨 */
+body > div._container_hjlba_1 > aside > div > div > div > h3 {
+  margin: 0 !important;
+}
+
+/* 내부 메뉴 문제 (문제N) */
+body > div._container_hjlba_1 > aside > div > div {
+  width: 100% !important;
+  padding: 4px 0 !important;
+}
+
+body > div._container_hjlba_1 > aside > div > div > div {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: none !important;
+}
+
+/* 문제 왼쪽에 구분선 표시 */
+body > div._container_hjlba_1 > aside > div > :not(div:first-child) {
+  border-left: 1px solid var(--container-border) !important;
+}
+
+/* 문제N 라벨 */
+body > div._container_hjlba_1 > aside > div > div > div > div > h3 {
+  margin: 0 !important;
+}
+
+/* 문제 열고 닫았을 때의 이미지 */
+body > div._container_hjlba_1 > aside > div > div > div > img {
+  content: url('data:image/svg+xml,%3csvg%20width="30"%20height="30"%20viewBox="0%200%2030%2030"%20fill="none"%20xmlns="http://www.w3.org/2000/svg"%3e%3cg%20id="chevron-down"%3e%3cpath%20id="Icon"%20d="M7.5%2011.25L15%2018.75L22.5%2011.25"%20stroke="gray"%20stroke-width="2"%20stroke-linecap="round"%20stroke-linejoin="round"/%3e%3c/g%3e%3c/svg%3e') !important;
+}

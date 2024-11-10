@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #00a8ff;
+  --secondary-color: #283259;
+  --danger-color: #ff6565;
+  --warning-color: #f1c40f;
+  --success-color: #2ecc71;
+  --container-border-width: 1px;
+  --transparent-button-background: rgba(255, 255, 255, 0.05);
+}

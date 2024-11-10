@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px; /* Add this line to set the height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #eeeeee;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-text-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}

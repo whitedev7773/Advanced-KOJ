@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Advanced KOJ",
+  "description": "KOJ의 UI/UX를 개선합니다.",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://coding.knu.ac.kr/*"],
+      "js": ["index.js"],
+      "css": [
+        "styles/themepacks/general.css",
+        "styles/themepacks/dark.css",
+
+        "styles/font.css",
+
+        "styles/defaultTag.css",
+
+        "styles/pages/login.css",
+        "styles/pages/main.css",
+        "styles/pages/quiz_browser.css",
+        "styles/pages/test_history.css",
+
+        "styles/components/header.css",
+        "styles/components/aside.css",
+        "styles/components/pdf_viewer.css",
+        "styles/components/quiz_viewer_menu.css",
+        "styles/components/quiz_viewer.css",
+        "styles/components/scrollbar.css"
+      ]
+    }
+  ]
+}

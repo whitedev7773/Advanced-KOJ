@@ -1,0 +1,295 @@
+/* 모든 요소의 BG 제거 */
+body > div._page-container_1v0he_1 > div * {
+  background: none;
+  border: none;
+  color: var(--primary-text-color);
+}
+
+/* Wrapper - 1 */
+body > div._page-container_1v0he_1 {
+  width: fit-content !important;
+  height: fit-content !important;
+  margin: auto !important;
+}
+
+/* Wrapper - 2 */
+body > div._page-container_1v0he_1 > div {
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+/* Wrapper - 3 */
+body > div._page-container_1v0he_1 > div > div {
+  width: 100% !important;
+  max-width: 1280px !important;
+  background: none !important;
+
+  margin-top: 50px !important;
+  padding: 40px;
+
+  border-radius: 30px !important;
+  border: 1px solid var(--container-border) !important;
+}
+
+/* 상단 헤더 (실습/문제 드랍다운 Wrapper) */
+body > div._page-container_1v0he_1 > div > div > div._header_2nyxe_14 > div {
+  width: 100% !important;
+
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+
+  display: flex !important;
+  gap: 30px !important;
+}
+
+/* 드랍다운 버튼 */
+body
+  > div._page-container_1v0he_1
+  > div
+  > div
+  > div._header_2nyxe_14
+  > div
+  > button {
+  width: max-content !important;
+  height: fit-content !important;
+
+  flex-grow: 1 !important;
+
+  padding: 16px !important;
+
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+  color: var(--secondary-text-color) !important;
+
+  background-color: transparent !important;
+  border: 1px solid var(--container-border) !important;
+}
+
+/* 드랍다운 버튼 화살표 */
+body
+  > div._page-container_1v0he_1
+  > div
+  > div
+  > div._header_2nyxe_14
+  > div
+  > button
+  > img {
+  content: url("data:image/svg+xml,%3csvg%20width='30'%20height='30'%20viewBox='0%200%2030%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='chevron-down'%3e%3cpath%20id='Icon'%20d='M7.5%2011.25L15%2018.75L22.5%2011.25'%20stroke='gray'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e") !important;
+}
+
+/* 버튼 드랍다운 메뉴 */
+body
+  > div._page-container_1v0he_1
+  > div
+  > div
+  > div._header_2nyxe_14
+  > div
+  > div {
+  z-index: 100 !important;
+  top: calc(100% + 16px) !important;
+  left: 0px !important;
+  width: 100% !important;
+  height: fit-content !important;
+  max-height: 300px !important;
+
+  padding: 0 !important;
+  border-radius: 12px !important;
+
+  background-color: var(--container-primary-background) !important;
+  border: 1px solid var(--container-border) !important;
+
+  overflow: scroll !important;
+}
+
+/* 드랍다운 메뉴 Element */
+body
+  > div._page-container_1v0he_1
+  > div
+  > div
+  > div._header_2nyxe_14
+  > div
+  > div
+  > div {
+  transition: background-color 0.2s ease-in-out !important;
+
+  cursor: pointer !important;
+}
+body
+  > div._page-container_1v0he_1
+  > div
+  > div
+  > div._header_2nyxe_14
+  > div
+  > div
+  > div:hover {
+  background-color: var(--container-secondary-background) !important;
+}
+
+body
+  > div._page-container_1v0he_1
+  > div
+  > div
+  > div._row_2nyxe_114
+  > div:nth-child(4)
+  > div
+  > button {
+  height: 56px !important;
+
+  padding: 0 20px !important;
+  background-color: var(--transparent-button-background) !important;
+}
+
+/* 맞았습니다 텍스트 */
+span._correct_1v0he_105 {
+  color: var(--success-color) !important;
+}
+
+/* 틀렸습니다 텍스트 */
+span._wrong_1v0he_109 {
+  color: var(--danger-color) !important;
+}
+
+/* 백드랍 */
+body > div._page-container_1v0he_1 > div._backdrop_1dr6g_13 {
+  width: 100% !important;
+  height: 100% !important;
+
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/* 모달 */
+body > div._page-container_1v0he_1 > div._backdrop_1dr6g_13 > dialog > div {
+  position: relative !important;
+
+  padding: 0 !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+
+  border: 2px solid var(--container-secondary-background) !important;
+  background-color: var(--container-secondary-background) !important;
+
+  box-shadow: none !important;
+
+  overflow: hidden !important;
+}
+
+/* 모달 닫기 버튼 */
+body
+  > div._page-container_1v0he_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > button {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+
+  width: 32px !important;
+  height: 32px !important;
+
+  padding: 0 !important;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  background-color: transparent !important;
+}
+/* 모달 닫기 버튼 이미지 */
+body
+  > div._page-container_1v0he_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > button
+  > img {
+  content: url("data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18%206L6%2018M6%206L18%2018'%20stroke='gray'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e") !important;
+}
+
+/* 모달 타이들 (Left-Content) */
+body
+  > div._page-container_1v0he_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div._title-area_roozh_1 {
+  padding: 50px;
+  gap: 10px;
+}
+
+/* 모달 타이틀 H1 */
+body
+  > div._page-container_1v0he_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div._title-area_roozh_1
+  > h1 {
+  font-size: 28px !important;
+  font-weight: 800 !important;
+}
+
+/* 모달 타이틀 H2 */
+body
+  > div._page-container_1v0he_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div._title-area_roozh_1
+  > h2 {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+
+  opacity: 0.75 !important;
+}
+
+/* 모달 내용 (Right-Content) */
+body
+  > div._page-container_1v0he_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div._modal-body_1v0he_83 {
+  width: 800px !important;
+  max-height: 600px !important;
+  padding: 50px;
+
+  background-color: var(--container-secondary-background) !important;
+
+  overflow-y: scroll !important;
+}
+
+/* 코드 에디터 */
+body
+  > div._page-container_1v0he_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div._modal-body_1v0he_83
+  > div:nth-child(1)
+  > div
+  > div {
+  border-radius: 10px !important;
+  background-color: white !important;
+
+  overflow: hidden !important;
+}
+
+/* 코드 에디터 */
+body
+  > div._page-container_1v0he_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div._modal-body_1v0he_83
+  > div:nth-child(1)
+  > div
+  > div
+  * {
+  color: black !important;
+}

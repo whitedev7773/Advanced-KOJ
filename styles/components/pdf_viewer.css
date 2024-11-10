@@ -1,0 +1,11 @@
+body > div._container_hjlba_1 > div > object {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 20px !important;
+  box-sizing: border-box !important;
+
+  border-radius: 14px !important;
+}

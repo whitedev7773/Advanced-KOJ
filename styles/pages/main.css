@@ -1,0 +1,55 @@
+/* 수업 목록 Wrapper */
+body > div._wrapper_1fy8h_1 > main {
+  border-radius: 30px !important;
+  border-color: var(--container-border) !important;
+}
+
+/* 타이틀 */
+body > div._wrapper_1fy8h_1 > main > div > h2 {
+  font-size: 24px !important;
+}
+
+/* 수업 목록 내부 Wrapper */
+body > div._wrapper_1fy8h_1 > main > div {
+  gap: 7px !important;
+}
+
+/* 분야별 Gap */
+body > div._wrapper_1fy8h_1 > main > div > div {
+  margin-bottom: 30px !important;
+}
+
+/* 수업 목록 Element */
+body > div._wrapper_1fy8h_1 > main > div > div:nth-child(2) > a {
+  height: fit-content !important;
+  border: none !important;
+  border-radius: 10px !important;
+
+  background-color: var(--container-secondary-background) !important;
+}
+
+/* 수업목록 Element 폰트 */
+body > div._wrapper_1fy8h_1 > main > div > div:nth-child(2) > a > div > div {
+  color: var(--primary-text-color) !important;
+}
+
+/* 수업 목록 Element 폰트 Wrapper */
+body > div._wrapper_1fy8h_1 > main > div > div:nth-child(2) > a > div {
+  width: fit-content !important;
+  height: fit-content !important;
+  display: flex !important;
+  flex-direction: column-reverse !important;
+  gap: 0px !important;
+}
+
+/* 수업 목록 Element 교수님 이름 */
+body
+  > div._wrapper_1fy8h_1
+  > main
+  > div
+  > div:nth-child(2)
+  > a
+  > div
+  > div._cell-subtitle_1fy8h_64 {
+  color: var(--secondary-text-color) !important;
+}

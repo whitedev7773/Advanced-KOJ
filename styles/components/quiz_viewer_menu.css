@@ -1,0 +1,264 @@
+:root {
+  --quiz-viewer-menu-width: 300px;
+}
+
+/* 본체 */
+body > div._container_hjlba_1 > div > div._problem-meta_ssc3t_21 {
+  width: var(--quiz-viewer-menu-width) !important;
+  min-width: var(--quiz-viewer-menu-width) !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  padding: 30px !important;
+  box-sizing: border-box !important;
+
+  border-left: 1px solid var(--container-border) !important;
+}
+
+/* 문제 점수/남은시간 Wrapper */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._table-row_ssc3t_35 {
+  width: 100% !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: left !important;
+  border: none;
+}
+
+/* 문제 점수/남은시간 라벨 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._table-row_ssc3t_35
+  > div {
+  width: fit-content !important;
+  height: fit-content !important;
+  padding: 0 !important;
+
+  color: var(--primary-text-color) !important;
+  border: none !important;
+}
+
+/* 마감 시간 라벨 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._table-row_ssc3t_35
+  > div:nth-child(1) {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: var(--secondary-text-color) !important;
+
+  margin-bottom: 6px !important;
+}
+
+/* 마감 시간 세부 정보 라벨 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._table-row_ssc3t_35
+  > div:nth-child(2) {
+  width: fit-content !important;
+
+  font-size: 16px !important;
+  font-weight: 700 !important;
+
+  margin-bottom: 20px !important;
+}
+
+/* 남은 시간 라벨 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._table-row_ssc3t_35
+  > div:nth-child(3) {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: var(--secondary-text-color) !important;
+
+  margin-bottom: 6px !important;
+}
+
+/* 남은 시간 세부 정보 라벨 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._table-row_ssc3t_35
+  > div:nth-child(4) {
+  width: fit-content !important;
+
+  font-size: 16px !important;
+  font-weight: 700 !important;
+
+  margin-bottom: 20px !important;
+}
+
+/* 점수/제출버튼 Wrapper */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70 {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+
+/* 점수 디스플레이 Wrapper */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._table-col_ssc3t_75 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: left !important;
+
+  border: none !important;
+}
+
+/* 점수 디스플레이 라벨 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._table-col_ssc3t_75
+  > div._table-title_ssc3t_57 {
+  width: fit-content !important;
+  height: fit-content !important;
+
+  margin-bottom: 6px !important;
+
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: var(--secondary-text-color) !important;
+
+  border: none !important;
+}
+
+/* 점수 디스플레이 세부 정보 라벨 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._table-col_ssc3t_75
+  > div:nth-child(2) {
+  width: fit-content !important;
+  height: fit-content !important;
+
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: var(--danger-color);
+
+  margin-bottom: 20px !important;
+}
+
+/* 채점기록/제출버튼 Wrapper */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._submit-buttons_ssc3t_95 {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+
+/* 채점 기록 버튼 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._submit-buttons_ssc3t_95
+  > a
+  > button {
+  width: 100% !important;
+  height: 60px !important;
+
+  color: #fff !important;
+
+  background-color: var(--secondary-color) !important;
+
+  border: none !important;
+}
+
+/* 제출 버튼 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._submit-buttons_ssc3t_95
+  > div {
+  position: relative !important;
+
+  width: 100% !important;
+  height: 60px !important;
+
+  border-radius: 12px !important;
+
+  font-size: 14px !important;
+  color: #fff !important;
+
+  background-color: var(--primary-color) !important;
+
+  border: none !important;
+
+  cursor: pointer !important;
+}
+
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._submit-buttons_ssc3t_95
+  > div::after {
+  transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out !important;
+
+  content: " " !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+
+  background-color: white !important;
+  opacity: 0 !important;
+}
+
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._submit-buttons_ssc3t_95
+  > div:hover::after {
+  opacity: 0.05 !important;
+}
+
+body
+  > div._container_hjlba_1
+  > div
+  > div._problem-meta_ssc3t_21
+  > div._top-right_ssc3t_70
+  > div._submit-buttons_ssc3t_95
+  > div:active::after {
+  background-color: black !important;
+  opacity: 0.1 !important;
+}
