@@ -21,6 +21,10 @@
         "styles/pages/quiz_browser.css",
         "styles/pages/test_history.css",
 
+        "styles/keyframes/cubic-bezier.css",
+        "styles/keyframes/fade-slide.css",
+        "styles/keyframes/fade.css",
+
         "styles/components/header.css",
         "styles/components/aside.css",
         "styles/components/pdf_viewer.css",
