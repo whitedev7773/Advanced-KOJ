@@ -158,6 +158,8 @@ body > div._page-container_1v0he_1 > div._backdrop_1dr6g_13 {
 
   background-color: rgba(0, 0, 0, 0.2) !important;
   backdrop-filter: blur(10px) !important;
+
+  animation: fade 0.5s var(--speed-type-1) forwards !important;
 }
 
 /* 모달 */
@@ -176,6 +178,8 @@ body > div._page-container_1v0he_1 > div._backdrop_1dr6g_13 > dialog > div {
   box-shadow: none !important;
 
   overflow: hidden !important;
+
+  animation: fade-slide 0.5s var(--speed-type-1) forwards !important;
 }
 
 /* 모달 닫기 버튼 */
