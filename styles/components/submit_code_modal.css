@@ -1,0 +1,179 @@
+/* 백드랍 */
+body > div._container_hjlba_1 > div > div._backdrop_1dr6g_13 {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(10px) !important;
+
+  animation: fade 0.5s var(--speed-type-1) forwards !important;
+}
+
+/* 모달 */
+body > div._container_hjlba_1 > div > div._backdrop_1dr6g_13 > dialog > div {
+  position: relative !important;
+
+  padding: 0 !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+
+  border: 2px solid var(--container-secondary-background) !important;
+  background-color: var(--container-secondary-background) !important;
+
+  box-shadow: none !important;
+
+  overflow: hidden !important;
+
+  animation: fade-slide 0.5s var(--speed-type-1) forwards !important;
+}
+
+/* 모달 닫기 버튼 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > button {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+
+  width: 32px !important;
+  height: 32px !important;
+
+  padding: 0 !important;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  background-color: transparent !important;
+}
+/* 모달 닫기 버튼 이미지 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > button
+  > img {
+  content: url("data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18%206L6%2018M6%206L18%2018'%20stroke='gray'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e") !important;
+}
+
+/* 모달 타이들 (Left-Content) */
+body
+  > div._container_hjlba_1
+  > div
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div {
+  padding: 50px;
+  gap: 10px;
+}
+
+/* 모달 타이틀 H1 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div
+  > h1 {
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  color: var(--primary-text-color);
+}
+
+/* 모달 타이틀 H2 */
+body
+  > div._container_hjlba_1
+  > div
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > div
+  > h2 {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+
+  opacity: 0.75 !important;
+}
+
+/* 모달 내용 (Right-Content) */
+body
+  > div._container_hjlba_1
+  > div
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > form {
+  width: fit-content !important;
+  max-height: 600px !important;
+  padding: 50px;
+
+  background-color: var(--container-secondary-background) !important;
+
+  border: none !important;
+  border-radius: 0px !important;
+
+  overflow-y: scroll !important;
+}
+
+/* 맞았습니다!를 받은 제일 최근 코드를 모아서 다운로드 합니다 텍스트 */
+body
+  > div._container_hjlba_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > form
+  > span {
+  color: var(--primary-text-color) !important;
+}
+
+/* 실습 목록 */
+body
+  > div._container_hjlba_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > form
+  > div {
+  background-color: var(--container-primary-background) !important;
+
+  border-radius: 26px !important;
+}
+
+/* 실습 목록 텍스트 */
+body
+  > div._container_hjlba_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > form
+  > div
+  span {
+  color: var(--primary-text-color) !important;
+}
+
+/* 실습 문제 목록 텍스트 */
+body
+  > div._container_hjlba_1
+  > div._backdrop_1dr6g_13
+  > dialog
+  > div
+  > form
+  > div
+  > div
+  > div._section-btn_oo7z1_17 {
+  color: var(--primary-text-color) !important;
+}
