@@ -21,12 +21,19 @@
         "styles/pages/quiz_browser.css",
         "styles/pages/test_history.css",
 
-        "styles/components/header.css",
+        "styles/keyframes/cubic-bezier.css",
+        "styles/keyframes/fade-slide.css",
+        "styles/keyframes/fade.css",
+
         "styles/components/aside.css",
+        "styles/components/change_password_modal.css",
+        "styles/components/download_file_modal.css",
+        "styles/components/header.css",
         "styles/components/pdf_viewer.css",
         "styles/components/quiz_viewer_menu.css",
         "styles/components/quiz_viewer.css",
-        "styles/components/scrollbar.css"
+        "styles/components/scrollbar.css",
+        "styles/components/submit_code_modal.css"
       ]
     }
   ]
